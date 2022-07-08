@@ -1,3 +1,3 @@
-import { hydrate } from "aleph/react-client";
+import { render } from "aleph/react-client";
 
-hydrate();
+setInterval(render, 1000)
