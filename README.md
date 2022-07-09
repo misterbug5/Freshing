@@ -4,6 +4,6 @@
 
 - First you need to have [deno](https://deno.land/)
 
-- Then run `deno run main.ts`
+- Then run `deno task start`
 
 Note: Each experiment are in their own branch, if you want to run an especific experiment run `git checkout [branch]`
