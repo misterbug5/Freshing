@@ -3,18 +3,16 @@
  * @jsxFrag Fragment
 */
 import { Component, h, Fragment } from "preact";
-import { tw } from "@twind";
+import { setup } from "@twind";
 import Toggle from "../islands/Button.tsx";
+import Hello from "../islands/Hello.tsx";
 
-export default class Home extends Component<{guess?:string}> {
-  constructor(props:{guess?:string}) {
-    super(props);
-  }
+export default class Home extends Component {
 
   render(): preact.ComponentChild {
     return (
       <>
-      <h1>Hello world and hello you, { this.props.guess || "anon" }</h1>
+      <Hello />
       <Toggle />
       </>
     )
